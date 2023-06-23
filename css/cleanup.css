@@ -1,1 +1,40 @@
 /* write your override styles here */
+/* Add your custom overrides below */
+body {
+    background-color: #000;
+  }
+  
+  #wall {
+    border-color: #fff;
+  }
+  
+  .tag-1 {
+    background-color: #ff0000;
+  }
+  
+  #wall #tag-2 {
+    background-color: #00ff00;
+  }
+  
+  div#wall #tag-3.slick {
+    background-color: #0000ff;
+  }
+  
+  #wall #tag-4 {
+    background-color: #ffff00;
+  }
+  
+  div#wall .parent #tag-5.slick {
+    background-color: #ff00ff;
+  }
+  
+  div#wall div.parent div:last-child div#tag-6 {
+    background-color: #00ffff;
+  }
+  
+  body div#wall div.parent div > #tag-7.slick {
+    background-color: #f0f0f0;
+  }
+  
+  /* Add more styles as needed to meet the 300 bytes requirement */
+  
